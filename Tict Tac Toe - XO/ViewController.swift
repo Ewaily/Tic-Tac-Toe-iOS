@@ -136,8 +136,8 @@ class ViewController: UIViewController {
                     let alert = UIAlertController(title: "Winner", message: "Congratulations, O player wins🏅", preferredStyle: UIAlertController.Style.alert)
                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
-                    oPlayerScore += 1
-                    updateDisplay()
+                    self.oPlayerScore += 1
+                    self.updateDisplay()
                 }
                 }
             }
