@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var player = 1, xPlayerScore = 0, oPlayerScore = 0, flag1 = 0, flag2 = 0, gameMode = 0, rand = 0, flag3 = 0
+    var player = 1, xPlayerScore = 0, oPlayerScore = 0, flag1 = 0, flag2 = 0, gameMode = 0, rand = 0, flag3 = 0, flag4 = 0
     var gameState = [0,0,0,0,0,0,0,0,0]
     let winnigCombinations = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
     @IBOutlet weak var xScore: UILabel!
@@ -59,10 +59,11 @@ class ViewController: UIViewController {
                 gameState[sender.tag - 1] = 1
                 flag1 += 1
                 flag3 = 0
+                flag4 = 0
                 drawCheck()
                 winnerCheck()
                 
-                if flag3 == 0 {
+                if flag3 == 0 && flag4 == 0{
                 rand = 1
                 
                 while rand == 1 {
@@ -193,8 +194,9 @@ class ViewController: UIViewController {
     
     func drawCheck () {
         
+        winnerCheck()
         if flag1 == 9 && flag2 == 0 {
-            
+            flag4 = 1
             let alert = UIAlertController(title: "Draw", message: "You draw! 🤷‍♂", preferredStyle: UIAlertController.Style.alert)
             alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
             self.present(alert, animated: true, completion: nil)
