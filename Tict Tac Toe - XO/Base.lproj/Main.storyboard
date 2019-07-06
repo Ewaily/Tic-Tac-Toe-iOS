@@ -129,69 +129,69 @@
                                             </imageView>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="242-1M-wqJ">
-                                        <rect key="frame" x="87" y="341" width="200" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="242-1M-wqJ">
+                                        <rect key="frame" x="64.5" y="333" width="245" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" tag="4" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyG-zC-kJ0" userLabel="4">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="4" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UyG-zC-kJ0" userLabel="4">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8vg-GJ-fGA"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="5" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuN-uT-f1t" userLabel="5">
-                                                <rect key="frame" x="85" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="5" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PuN-uT-f1t" userLabel="5">
+                                                <rect key="frame" x="95" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Wzj-h9-UOU"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="6" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="440-BO-kme" userLabel="6">
-                                                <rect key="frame" x="170" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="6" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="440-BO-kme" userLabel="6">
+                                                <rect key="frame" x="190" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vIg-mO-1sE"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="F9q-Cc-ab0">
-                                        <rect key="frame" x="87" y="433" width="200" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="F9q-Cc-ab0">
+                                        <rect key="frame" x="64.5" y="421" width="245" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" tag="7" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlH-Jo-SpO" userLabel="7">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="7" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zlH-Jo-SpO" userLabel="7">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bY1-On-2sY"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="8" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7JQ-A1-j4Z" userLabel="8">
-                                                <rect key="frame" x="85" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="8" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7JQ-A1-j4Z" userLabel="8">
+                                                <rect key="frame" x="95" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="VgZ-tx-ATm"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="9" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fh-tG-ceD" userLabel="9">
-                                                <rect key="frame" x="170" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="9" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4Fh-tG-ceD" userLabel="9">
+                                                <rect key="frame" x="190" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="6WG-rj-rDh"/>
                                                 </connections>
                                             </button>
                                         </subviews>
                                     </stackView>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="55" translatesAutoresizingMaskIntoConstraints="NO" id="oto-X8-uI6">
-                                        <rect key="frame" x="87" y="249" width="200" height="34"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="40" translatesAutoresizingMaskIntoConstraints="NO" id="oto-X8-uI6">
+                                        <rect key="frame" x="64.5" y="245" width="245" height="50"/>
                                         <subviews>
-                                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0b-B9-fNX" userLabel="1">
-                                                <rect key="frame" x="0.0" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="1" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="O0b-B9-fNX" userLabel="1">
+                                                <rect key="frame" x="0.0" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kgv-Me-ESo"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh4-nw-jHP" userLabel="2">
-                                                <rect key="frame" x="85" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="2" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Sh4-nw-jHP" userLabel="2">
+                                                <rect key="frame" x="95" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="oLo-bv-dcq"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" tag="3" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdY-n0-WcW" userLabel="3">
-                                                <rect key="frame" x="170" y="0.0" width="30" height="34"/>
+                                            <button opaque="NO" tag="3" contentMode="scaleAspectFit" placeholderIntrinsicWidth="55" placeholderIntrinsicHeight="50" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fdY-n0-WcW" userLabel="3">
+                                                <rect key="frame" x="190" y="0.0" width="55" height="50"/>
                                                 <connections>
                                                     <action selector="playerAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="WqX-gt-PWa"/>
                                                 </connections>
@@ -200,8 +200,8 @@
                                     </stackView>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="11z-ax-8WR" firstAttribute="top" secondItem="oto-X8-uI6" secondAttribute="bottom" constant="30" id="JXE-Ab-Wmh"/>
-                                    <constraint firstItem="F9q-Cc-ab0" firstAttribute="top" secondItem="11z-ax-8WR" secondAttribute="bottom" constant="30" id="OGp-2f-JAl"/>
+                                    <constraint firstItem="11z-ax-8WR" firstAttribute="top" secondItem="oto-X8-uI6" secondAttribute="bottom" constant="18" id="JXE-Ab-Wmh"/>
+                                    <constraint firstItem="F9q-Cc-ab0" firstAttribute="top" secondItem="11z-ax-8WR" secondAttribute="bottom" constant="18" id="OGp-2f-JAl"/>
                                     <constraint firstItem="11z-ax-8WR" firstAttribute="centerX" secondItem="gnV-S0-v7c" secondAttribute="centerX" id="S8Q-O2-tEN"/>
                                     <constraint firstItem="oto-X8-uI6" firstAttribute="centerX" secondItem="gnV-S0-v7c" secondAttribute="centerX" id="b4U-N9-qAy"/>
                                     <constraint firstItem="242-1M-wqJ" firstAttribute="centerX" secondItem="gnV-S0-v7c" secondAttribute="centerX" id="cJg-Aj-Ii4"/>

@@ -109,6 +109,7 @@ class ViewController: UIViewController {
             let button = view.viewWithTag(i) as! UIButton
             button.setImage(nil, for: UIControl.State())
         }
+
     }
     
     func winnerCheck () {
@@ -116,16 +117,19 @@ class ViewController: UIViewController {
         for combination in winnigCombinations {
             
             if gameState[combination[0]] != 0 && gameState[combination[0]] == gameState[combination[1]] && gameState[combination[1]] == gameState[combination[2]] {
+
                 flag2 = 1
                 flag3 = 1
+                
                 if gameState[combination[0]] == 1 {
-                    
+                    DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
+
                     let alert = UIAlertController(title: "Winner", message: "Congratulations, X player wins🏅", preferredStyle: UIAlertController.Style.alert)
                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
-                    xPlayerScore += 1
-                    updateDisplay()
-                    
+                        self.xPlayerScore += 1
+                        self.updateDisplay()
+                    }
                 }
                 else {
                     
@@ -137,6 +141,7 @@ class ViewController: UIViewController {
                 }
             }
         }
+
     }
     
     @IBAction func resetButton(_ sender: UIButton) {
