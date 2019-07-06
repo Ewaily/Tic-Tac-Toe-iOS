@@ -10,7 +10,7 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var player = 1, xPlayerScore = 0, oPlayerScore = 0, flag1 = 0, flag2 = 0, gameMode = 0, rand = 0, flag3 = 0, flag4 = 0
+    var player = 1, xPlayerScore = 0, oPlayerScore = 0, flag1 = 0, flag2 = 0, gameMode = 0, rand = 0, flag3 = 0, flag4 = 0, x = 0, y = 0
     var gameState = [0,0,0,0,0,0,0,0,0]
     let winnigCombinations = [[0,1,2],[3,4,5],[6,7,8],[0,3,6],[1,4,7],[2,5,8],[0,4,8],[2,4,6]]
     @IBOutlet weak var xScore: UILabel!
@@ -99,6 +99,15 @@ class ViewController: UIViewController {
     }
     
     func updateDisplay () {
+        
+        if x == 1 {
+            xPlayerScore += 1
+            x = 0
+        }
+        else if y == 1 {
+            oPlayerScore += 1
+            y = 0
+        }
         flag1 = 0
         flag2 = 0
         player = 1
@@ -123,21 +132,21 @@ class ViewController: UIViewController {
                 flag3 = 1
                 
                 if gameState[combination[0]] == 1 {
+                    x = 1
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
 
                     let alert = UIAlertController(title: "Winner", message: "Congratulations, X player wins🏅", preferredStyle: UIAlertController.Style.alert)
                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
-                        self.xPlayerScore += 1
                         self.updateDisplay()
                     }
                 }
                 else {
+                    y = 1
                     DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
                     let alert = UIAlertController(title: "Winner", message: "Congratulations, O player wins🏅", preferredStyle: UIAlertController.Style.alert)
                     alert.addAction(UIAlertAction(title: "OK", style: .default, handler: nil))
                     self.present(alert, animated: true, completion: nil)
-                    self.oPlayerScore += 1
                     self.updateDisplay()
                 }
                 }
